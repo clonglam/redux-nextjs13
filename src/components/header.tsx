@@ -4,7 +4,7 @@ type Props = {}
 
 function Header({}: Props) {
   return (
-    <nav className="flex justify-between px-5 py-3">
+    <nav className="flex justify-between items-center px-5 py-3 border-b-black border-b-[1px]">
       <div className="font-semibold">CLONG</div>
       <div className="text-lg">Redux | NextJS 13</div>
 
